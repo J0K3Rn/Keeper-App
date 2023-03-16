@@ -31,7 +31,7 @@ function App() {
     <div>
       <Header />
       <CreateArea addNote={addNote} />
-      {notes.map((noteItem, index) => <Note key={index} id={index} title={noteItem.title} content={noteItem.content} deleteNote={deleteNote}  />)};
+      {notes.map((noteItem, index) => <Note key={index} id={index} title={noteItem.title} content={noteItem.content} deleteNote={deleteNote}  />)}
       <Footer />
     </div>
   );
